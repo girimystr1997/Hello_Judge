@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello Judge</title>
+
+  <link rel="stylesheet" type="text/css" href="rule.css">
+</head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+			<div>Hello<span>Judge</span></div>
+		</div>
+		<br>
+		<div class="login">
+				<input type="text" id="name" placeholder="name" name="user"><br><br>
+				<input type="text" id="college_name" placeholder="college name" name="college_name"><br><br>
+				<input type="text" id="dept_and_branch" placeholder="deptment and branch" name="dept_and_branch"><br><br>
+				<input type="text" id="year" placeholder="year" name="year"><br><br><br>
+                <input type="hidden" id="judge_one"/>
+                <input type="hidden" id="judge_two"/>
+                <input type="hidden" id="time"/>
+                
+
+				<input type="button" value="Submit" onclick="create()">
+		</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="write.js"></script>
+  
+<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyB2UnJfFCaVpwJYgqsmOfYXlXaGuOUgEn0",
+    authDomain: "hello-judge-479c3.firebaseapp.com",
+    databaseURL: "https://hello-judge-479c3.firebaseio.com",
+    projectId: "hello-judge-479c3",
+    storageBucket: "hello-judge-479c3.appspot.com",
+    messagingSenderId: "59656656538"
+  };
+  firebase.initializeApp(config);
+</script>
+
+</body>
+
+</html>
