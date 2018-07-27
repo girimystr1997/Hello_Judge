@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HelloJudge</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="mark_one">Mark One</string>
+    <string name="mark_two">Mark Two</string>
+    <string name="mark_three">Mark Three</string>
+    <string name="logo">logo</string>
+    <string name="proudly_presents">Proudly Presents</string>
+</resources>
