@@ -42,9 +42,11 @@ public class Qr_code extends AppCompatActivity implements ZXingScannerView.Resul
         mScannerView = new ZXingScannerView(this);
         setContentView(mScannerView);
         int currentapiVersion = android.os.Build.VERSION.SDK_INT;
-        if (currentapiVersion >= android.os.Build.VERSION_CODES.M) {
+        if (currentapiVersion >= android.os.Build.VERSION_CODES.JELLY_BEAN_MR2) {
             if (checkPermission()) {
                 Toast.makeText(getApplicationContext(), "Permission already granted", Toast.LENGTH_LONG).show();
+                Intent in = new Intent(Qr_code.this,Qr_code_min.class);
+                startActivity(in);
             } else {
                 requestPermission();
             }
