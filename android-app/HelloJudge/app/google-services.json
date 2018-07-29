@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "59656656538",
+    "firebase_url": "https://hello-judge-479c3.firebaseio.com",
+    "project_id": "hello-judge-479c3",
+    "storage_bucket": "hello-judge-479c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59656656538:android:207b25c7bdea1968",
+        "android_client_info": {
+          "package_name": "com.example.girii.hellojudge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59656656538-i3vol176m9r54hqaq05jh3ugiqbqmvn2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.girii.hellojudge",
+            "certificate_hash": "764dece77dbc85f54f471de99b39a8f0f084eab7"
+          }
+        },
+        {
+          "client_id": "59656656538-5ivbu5gb1kj6ukhip8r446unf0kme3j9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi6vgildix9koZyrjROqLWErP4cZ4XE4A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59656656538-5ivbu5gb1kj6ukhip8r446unf0kme3j9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
